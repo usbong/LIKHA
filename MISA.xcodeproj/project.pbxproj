@@ -10,6 +10,7 @@
 		DFCCFF171D51910B0099635B /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF141D51910B0099635B /* SWXMLHash.framework */; };
 		DFCCFF181D51910B0099635B /* UsbongKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF151D51910B0099635B /* UsbongKit.framework */; };
 		DFCCFF191D51910B0099635B /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF161D51910B0099635B /* Zip.framework */; };
+		DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */ = {isa = PBXBuildFile; fileRef = DFCCFF1B1D5192C50099635B /* MISA.utree */; };
 		DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */; };
 		DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7771D50EE05003A7D1A /* ViewController.swift */; };
 		DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDEA7791D50EE05003A7D1A /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		DFCCFF141D51910B0099635B /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
 		DFCCFF151D51910B0099635B /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsbongKit.framework; path = Carthage/Build/iOS/UsbongKit.framework; sourceTree = "<group>"; };
 		DFCCFF161D51910B0099635B /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
+		DFCCFF1B1D5192C50099635B /* MISA.utree */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISA.utree; sourceTree = "<group>"; };
 		DFDEA7721D50EE05003A7D1A /* MISA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MISA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDEA7771D50EE05003A7D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		DFDEA7691D50EE05003A7D1A = {
 			isa = PBXGroup;
 			children = (
+				DFCCFF1B1D5192C50099635B /* MISA.utree */,
 				DFCCFF141D51910B0099635B /* SWXMLHash.framework */,
 				DFCCFF151D51910B0099635B /* UsbongKit.framework */,
 				DFCCFF161D51910B0099635B /* Zip.framework */,
@@ -245,6 +248,7 @@
 				DFDEA7801D50EE05003A7D1A /* LaunchScreen.storyboard in Resources */,
 				DFDEA77D1D50EE05003A7D1A /* Assets.xcassets in Resources */,
 				DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */,
+				DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
