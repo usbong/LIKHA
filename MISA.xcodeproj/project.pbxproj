@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFCCFF171D51910B0099635B /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF141D51910B0099635B /* SWXMLHash.framework */; };
+		DFCCFF181D51910B0099635B /* UsbongKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF151D51910B0099635B /* UsbongKit.framework */; };
+		DFCCFF191D51910B0099635B /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF161D51910B0099635B /* Zip.framework */; };
 		DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */; };
 		DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7771D50EE05003A7D1A /* ViewController.swift */; };
 		DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDEA7791D50EE05003A7D1A /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFCCFF141D51910B0099635B /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
+		DFCCFF151D51910B0099635B /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsbongKit.framework; path = Carthage/Build/iOS/UsbongKit.framework; sourceTree = "<group>"; };
+		DFCCFF161D51910B0099635B /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
 		DFDEA7721D50EE05003A7D1A /* MISA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MISA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDEA7771D50EE05003A7D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCCFF171D51910B0099635B /* SWXMLHash.framework in Frameworks */,
+				DFCCFF181D51910B0099635B /* UsbongKit.framework in Frameworks */,
+				DFCCFF191D51910B0099635B /* Zip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,9 @@
 		DFDEA7691D50EE05003A7D1A = {
 			isa = PBXGroup;
 			children = (
+				DFCCFF141D51910B0099635B /* SWXMLHash.framework */,
+				DFCCFF151D51910B0099635B /* UsbongKit.framework */,
+				DFCCFF161D51910B0099635B /* Zip.framework */,
 				DFDEA7741D50EE05003A7D1A /* MISA */,
 				DFDEA7891D50EE05003A7D1A /* MISATests */,
 				DFDEA7941D50EE05003A7D1A /* MISAUITests */,
@@ -135,6 +147,7 @@
 				DFDEA76E1D50EE05003A7D1A /* Sources */,
 				DFDEA76F1D50EE05003A7D1A /* Frameworks */,
 				DFDEA7701D50EE05003A7D1A /* Resources */,
+				DFCCFF1A1D5191140099635B /* Carthage Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +263,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFCCFF1A1D5191140099635B /* Carthage Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SWXMLHash.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/UsbongKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
+			);
+			name = "Carthage Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFDEA76E1D50EE05003A7D1A /* Sources */ = {
@@ -401,6 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MISA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -413,6 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MISA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -486,6 +527,7 @@
 				DFDEA79C1D50EE05003A7D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFDEA79D1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISATests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +536,7 @@
 				DFDEA79F1D50EE05003A7D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFDEA7A01D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISAUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +545,7 @@
 				DFDEA7A21D50EE05003A7D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
