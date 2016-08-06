@@ -10,11 +10,7 @@ import Foundation
 import StoreKit
 
 class PurchasesTableViewController: UITableViewController {
-    var store: IAPHelper = IAPHelper(bundles: []) {
-        didSet {
-            reload()
-        }
-    }
+    var store: IAPHelper = IAPHelper(bundles: [])
     
     var products: [SKProduct] = []
     
@@ -29,7 +25,7 @@ class PurchasesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.registerNib(UINib(nibName: "IAPTableViewCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "itemCell")
+        tableView.registerNib(UINib(nibName: "IAPTableViewCell", bundle: NSBundle(forClass: IAPTableViewCell.self)), forCellReuseIdentifier: "itemCell")
         
         // Table view dynamic height
         tableView.rowHeight = UITableViewAutomaticDimension
