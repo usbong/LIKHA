@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFB6853F1D5563F90044CFB6 /* MISABundles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6853E1D5563F90044CFB6 /* MISABundles.swift */; };
 		DFCCFF171D51910B0099635B /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF141D51910B0099635B /* SWXMLHash.framework */; };
 		DFCCFF181D51910B0099635B /* UsbongKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF151D51910B0099635B /* UsbongKit.framework */; };
 		DFCCFF191D51910B0099635B /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF161D51910B0099635B /* Zip.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFB6853E1D5563F90044CFB6 /* MISABundles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MISABundles.swift; sourceTree = "<group>"; };
 		DFCCFF141D51910B0099635B /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
 		DFCCFF151D51910B0099635B /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsbongKit.framework; path = Carthage/Build/iOS/UsbongKit.framework; sourceTree = "<group>"; };
 		DFCCFF161D51910B0099635B /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */,
 				DFDEA7771D50EE05003A7D1A /* ViewController.swift */,
+				DFB6853E1D5563F90044CFB6 /* MISABundles.swift */,
 				DFDEA7791D50EE05003A7D1A /* Main.storyboard */,
 				DFDEA77C1D50EE05003A7D1A /* Assets.xcassets */,
 				DFDEA77E1D50EE05003A7D1A /* LaunchScreen.storyboard */,
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB6853F1D5563F90044CFB6 /* MISABundles.swift in Sources */,
 				DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */,
 				DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */,
 			);

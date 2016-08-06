@@ -32,7 +32,9 @@ class ViewController: UIViewController {
     @IBAction func didPressStart(sender: AnyObject) {
         let treeURL = NSBundle.mainBundle().URLForResource("MISA", withExtension: "utree")!
         
-        Usbong.presentViewer(onViewController: self, withUtreeURL: treeURL)
+        let data = UsbongTreeData(bundles: MISABundles.bundles)
+        
+        Usbong.presentViewer(onViewController: self, withUtreeURL: treeURL, andData: data)
     }
     
     func heightForCoverImage() -> CGFloat {
