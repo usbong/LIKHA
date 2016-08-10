@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Zip/Zip.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/UsbongKit/UsbongKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:MISA.xcodeproj">
+   </FileRef>
+</Workspace>

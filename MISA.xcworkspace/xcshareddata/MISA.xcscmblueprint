@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "882B08BCA9D0FB37D5E4F56EB23AED70E57C7D43",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "882B08BCA9D0FB37D5E4F56EB23AED70E57C7D43" : 0,
+    "A35CCB433480D36684A5C64E8A2C8310B0077A64" : 0,
+    "8DA5B175D3FDB92A3B3CCBD4109A734F1316A3DD" : 0,
+    "EB2210CFD48672E403BED699D5D7F01B844069CF" : 0,
+    "3DD768C8AB2D6A2647C9EF99992D3CC5820E77C4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FB5D0EDD-8633-4217-BA3A-8E0C8A2EC916",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "882B08BCA9D0FB37D5E4F56EB23AED70E57C7D43" : "MISA\/",
+    "A35CCB433480D36684A5C64E8A2C8310B0077A64" : "MISA\/Carthage\/Checkouts\/UsbongKit\/",
+    "8DA5B175D3FDB92A3B3CCBD4109A734F1316A3DD" : "MISA\/Carthage\/Checkouts\/Zip\/Zip\/minizip\/",
+    "EB2210CFD48672E403BED699D5D7F01B844069CF" : "MISA\/Carthage\/Checkouts\/SWXMLHash\/",
+    "3DD768C8AB2D6A2647C9EF99992D3CC5820E77C4" : "MISA\/Carthage\/Checkouts\/Zip\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MISA",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MISA.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marmelroy\/Zip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DD768C8AB2D6A2647C9EF99992D3CC5820E77C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chrisamanse\/MISA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "882B08BCA9D0FB37D5E4F56EB23AED70E57C7D43"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marmelroy\/minizip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DA5B175D3FDB92A3B3CCBD4109A734F1316A3DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/usbong\/UsbongKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A35CCB433480D36684A5C64E8A2C8310B0077A64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/drmohundro\/SWXMLHash.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB2210CFD48672E403BED699D5D7F01B844069CF"
+    }
+  ]
+}
