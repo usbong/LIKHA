@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DFB6853F1D5563F90044CFB6 /* MISABundles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6853E1D5563F90044CFB6 /* MISABundles.swift */; };
-		DFCCFF171D51910B0099635B /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF141D51910B0099635B /* SWXMLHash.framework */; };
-		DFCCFF181D51910B0099635B /* UsbongKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF151D51910B0099635B /* UsbongKit.framework */; };
-		DFCCFF191D51910B0099635B /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCCFF161D51910B0099635B /* Zip.framework */; };
 		DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */ = {isa = PBXBuildFile; fileRef = DFCCFF1B1D5192C50099635B /* MISA.utree */; };
 		DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */; };
 		DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7771D50EE05003A7D1A /* ViewController.swift */; };
@@ -19,6 +16,12 @@
 		DFDEA7801D50EE05003A7D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDEA77E1D50EE05003A7D1A /* LaunchScreen.storyboard */; };
 		DFDEA78B1D50EE05003A7D1A /* MISATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA78A1D50EE05003A7D1A /* MISATests.swift */; };
 		DFDEA7961D50EE05003A7D1A /* MISAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7951D50EE05003A7D1A /* MISAUITests.swift */; };
+		DFDF66F61D5AC73A005A993D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */; };
+		DFDF66F71D5AC73A005A993D /* SWXMLHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFDF66FA1D5AC73F005A993D /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F91D5AC73F005A993D /* Zip.framework */; };
+		DFDF66FB1D5AC73F005A993D /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F91D5AC73F005A993D /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFDF66FC1D5AC744005A993D /* UsbongKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F31D5AC490005A993D /* UsbongKit.framework */; };
+		DFDF66FD1D5AC744005A993D /* UsbongKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F31D5AC490005A993D /* UsbongKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +41,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DFDF66F81D5AC73A005A993D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DFDF66FD1D5AC744005A993D /* UsbongKit.framework in Embed Frameworks */,
+				DFDF66FB1D5AC73F005A993D /* Zip.framework in Embed Frameworks */,
+				DFDF66F71D5AC73A005A993D /* SWXMLHash.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DFB6853E1D5563F90044CFB6 /* MISABundles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MISABundles.swift; sourceTree = "<group>"; };
-		DFCCFF141D51910B0099635B /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
-		DFCCFF151D51910B0099635B /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsbongKit.framework; path = Carthage/Build/iOS/UsbongKit.framework; sourceTree = "<group>"; };
-		DFCCFF161D51910B0099635B /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
 		DFCCFF1B1D5192C50099635B /* MISA.utree */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISA.utree; sourceTree = "<group>"; };
 		DFDEA7721D50EE05003A7D1A /* MISA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MISA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +73,9 @@
 		DFDEA7911D50EE05003A7D1A /* MISAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MISAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDEA7951D50EE05003A7D1A /* MISAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MISAUITests.swift; sourceTree = "<group>"; };
 		DFDEA7971D50EE05003A7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDF66F31D5AC490005A993D /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsbongKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/MISA-arubxqpjhznktnbmkbvhinlvysyv/Build/Products/Debug-iphoneos/UsbongKit.framework"; sourceTree = "<group>"; };
+		DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SWXMLHash.framework; path = "/Users/chrisamanse/Library/Developer/Xcode/DerivedData/MISA-arubxqpjhznktnbmkbvhinlvysyv/Build/Products/Debug-iphoneos/SWXMLHash.framework"; sourceTree = "<absolute>"; };
+		DFDF66F91D5AC73F005A993D /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Zip.framework; path = "/Users/chrisamanse/Library/Developer/Xcode/DerivedData/MISA-arubxqpjhznktnbmkbvhinlvysyv/Build/Products/Debug-iphoneos/Zip.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCCFF171D51910B0099635B /* SWXMLHash.framework in Frameworks */,
-				DFCCFF181D51910B0099635B /* UsbongKit.framework in Frameworks */,
-				DFCCFF191D51910B0099635B /* Zip.framework in Frameworks */,
+				DFDF66F61D5AC73A005A993D /* SWXMLHash.framework in Frameworks */,
+				DFDF66FA1D5AC73F005A993D /* Zip.framework in Frameworks */,
+				DFDF66FC1D5AC744005A993D /* UsbongKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,10 +109,10 @@
 		DFDEA7691D50EE05003A7D1A = {
 			isa = PBXGroup;
 			children = (
+				DFDF66F91D5AC73F005A993D /* Zip.framework */,
+				DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */,
+				DFDF66F31D5AC490005A993D /* UsbongKit.framework */,
 				DFCCFF1B1D5192C50099635B /* MISA.utree */,
-				DFCCFF141D51910B0099635B /* SWXMLHash.framework */,
-				DFCCFF151D51910B0099635B /* UsbongKit.framework */,
-				DFCCFF161D51910B0099635B /* Zip.framework */,
 				DFDEA7741D50EE05003A7D1A /* MISA */,
 				DFDEA7891D50EE05003A7D1A /* MISATests */,
 				DFDEA7941D50EE05003A7D1A /* MISAUITests */,
@@ -153,7 +172,7 @@
 				DFDEA76E1D50EE05003A7D1A /* Sources */,
 				DFDEA76F1D50EE05003A7D1A /* Frameworks */,
 				DFDEA7701D50EE05003A7D1A /* Resources */,
-				DFCCFF1A1D5191140099635B /* Carthage Copy Frameworks */,
+				DFDF66F81D5AC73A005A993D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,26 +289,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		DFCCFF1A1D5191140099635B /* Carthage Copy Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SWXMLHash.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/UsbongKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
-			);
-			name = "Carthage Copy Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFDEA76E1D50EE05003A7D1A /* Sources */ = {
