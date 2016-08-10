@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/SWXMLHash"]
+	url = https://github.com/drmohundro/SWXMLHash.git
+[submodule "Carthage/Checkouts/Zip"]
+	url = https://github.com/marmelroy/Zip.git
+[submodule "Carthage/Checkouts/UsbongKit"]
+	url = https://github.com/usbong/UsbongKit.git
