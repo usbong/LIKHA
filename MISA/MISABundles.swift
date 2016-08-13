@@ -10,10 +10,7 @@ import Foundation
 import UsbongKit
 
 struct MISABundles {
-    static let bundlesDictionary = [
-        "com.example.uniqueIdentifier": ["Language1", "Language2"],
-        "com.example.anotherIdentifier": ["Language3", "Language4"]
-    ]
+    static let bundlesDictionary = (NSDictionary(contentsOfURL: NSBundle.mainBundle().URLForResource("MISABundles", withExtension: "plist")!) as? Dictionary<String, [String]>) ?? [:]
 }
 
 extension MISABundles {

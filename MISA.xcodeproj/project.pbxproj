@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3449401D5F8F6F00685719 /* MISABundles.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF34493F1D5F8F6F00685719 /* MISABundles.plist */; };
 		DFB6853F1D5563F90044CFB6 /* MISABundles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6853E1D5563F90044CFB6 /* MISABundles.swift */; };
 		DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */ = {isa = PBXBuildFile; fileRef = DFCCFF1B1D5192C50099635B /* MISA.utree */; };
 		DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF34493F1D5F8F6F00685719 /* MISABundles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MISABundles.plist; sourceTree = "<group>"; };
 		DFB6853E1D5563F90044CFB6 /* MISABundles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MISABundles.swift; sourceTree = "<group>"; };
 		DFCCFF1B1D5192C50099635B /* MISA.utree */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISA.utree; sourceTree = "<group>"; };
 		DFDEA7721D50EE05003A7D1A /* MISA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MISA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */,
 				DFDEA7771D50EE05003A7D1A /* ViewController.swift */,
 				DFB6853E1D5563F90044CFB6 /* MISABundles.swift */,
+				DF34493F1D5F8F6F00685719 /* MISABundles.plist */,
 				DFDEA7791D50EE05003A7D1A /* Main.storyboard */,
 				DFDEA77C1D50EE05003A7D1A /* Assets.xcassets */,
 				DFDEA77E1D50EE05003A7D1A /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 				DFDEA77D1D50EE05003A7D1A /* Assets.xcassets in Resources */,
 				DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */,
 				DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */,
+				DF3449401D5F8F6F00685719 /* MISABundles.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
