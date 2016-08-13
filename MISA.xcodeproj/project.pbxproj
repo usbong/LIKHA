@@ -108,16 +108,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DFDEA7691D50EE05003A7D1A = {
+		DF3449411D5F90B800685719 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DFDF66F91D5AC73F005A993D /* Zip.framework */,
 				DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */,
 				DFDF66F31D5AC490005A993D /* UsbongKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFDEA7691D50EE05003A7D1A = {
+			isa = PBXGroup;
+			children = (
 				DFCCFF1B1D5192C50099635B /* MISA.utree */,
 				DFDEA7741D50EE05003A7D1A /* MISA */,
 				DFDEA7891D50EE05003A7D1A /* MISATests */,
 				DFDEA7941D50EE05003A7D1A /* MISAUITests */,
+				DF3449411D5F90B800685719 /* Frameworks */,
 				DFDEA7731D50EE05003A7D1A /* Products */,
 			);
 			sourceTree = "<group>";
