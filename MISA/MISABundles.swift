@@ -9,7 +9,7 @@
 import Foundation
 import UsbongKit
 
-enum MISABundles {
+struct MISABundles {
     static let bundlesDictionary = [
         "com.example.uniqueIdentifier": ["Language1", "Language2"],
         "com.example.anotherIdentifier": ["Language3", "Language4"]
