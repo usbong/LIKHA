@@ -73,9 +73,9 @@
 		DFDEA7911D50EE05003A7D1A /* MISAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MISAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDEA7951D50EE05003A7D1A /* MISAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MISAUITests.swift; sourceTree = "<group>"; };
 		DFDEA7971D50EE05003A7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDF66F31D5AC490005A993D /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsbongKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/MISA-arubxqpjhznktnbmkbvhinlvysyv/Build/Products/Debug-iphoneos/UsbongKit.framework"; sourceTree = "<group>"; };
-		DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SWXMLHash.framework; path = "/Users/chrisamanse/Library/Developer/Xcode/DerivedData/MISA-arubxqpjhznktnbmkbvhinlvysyv/Build/Products/Debug-iphoneos/SWXMLHash.framework"; sourceTree = "<absolute>"; };
-		DFDF66F91D5AC73F005A993D /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Zip.framework; path = "/Users/chrisamanse/Library/Developer/Xcode/DerivedData/MISA-arubxqpjhznktnbmkbvhinlvysyv/Build/Products/Debug-iphoneos/Zip.framework"; sourceTree = "<absolute>"; };
+		DFDF66F31D5AC490005A993D /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UsbongKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDF66F91D5AC73F005A993D /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,10 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MISA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -457,10 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MISA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
