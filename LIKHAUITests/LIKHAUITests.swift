@@ -1,6 +1,6 @@
 //
-//  MISAUITests.swift
-//  MISAUITests
+//  LIKHAUITests.swift
+//  LIKHAUITests
 //
 //  Created by Chris Amanse on 02/08/2016.
 //  Copyright © 2016 Usbong Social Systems, Inc. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class MISAUITests: XCTestCase {
+class LIKHAUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

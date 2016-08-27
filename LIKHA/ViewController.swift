@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MISA
+//  LIKHA
 //
 //  Created by Chris Amanse on 02/08/2016.
 //  Copyright © 2016 Usbong Social Systems, Inc. All rights reserved.
@@ -30,9 +30,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didPressStart(sender: AnyObject) {
-        let treeURL = NSBundle.mainBundle().URLForResource("MISA", withExtension: "utree")!
+        let treeURL = NSBundle.mainBundle().URLForResource("LIKHA", withExtension: "utree")!
         
-        let data = UsbongTreeData(bundles: MISABundles.bundles)
+        let data = UsbongTreeData(bundles: LIKHABundles.bundles)
         
         Usbong.presentViewer(onViewController: self, withUtreeURL: treeURL, andData: data)
     }

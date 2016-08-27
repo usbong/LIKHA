@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF3449401D5F8F6F00685719 /* MISABundles.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF34493F1D5F8F6F00685719 /* MISABundles.plist */; };
-		DFB6853F1D5563F90044CFB6 /* MISABundles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6853E1D5563F90044CFB6 /* MISABundles.swift */; };
-		DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */ = {isa = PBXBuildFile; fileRef = DFCCFF1B1D5192C50099635B /* MISA.utree */; };
+		DF3449401D5F8F6F00685719 /* LIKHABundles.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF34493F1D5F8F6F00685719 /* LIKHABundles.plist */; };
+		DFB6853F1D5563F90044CFB6 /* LIKHABundles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6853E1D5563F90044CFB6 /* LIKHABundles.swift */; };
+		DFCCFF1C1D5192C50099635B /* LIKHA.utree in Resources */ = {isa = PBXBuildFile; fileRef = DFCCFF1B1D5192C50099635B /* LIKHA.utree */; };
 		DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */; };
 		DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7771D50EE05003A7D1A /* ViewController.swift */; };
 		DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDEA7791D50EE05003A7D1A /* Main.storyboard */; };
 		DFDEA77D1D50EE05003A7D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDEA77C1D50EE05003A7D1A /* Assets.xcassets */; };
 		DFDEA7801D50EE05003A7D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDEA77E1D50EE05003A7D1A /* LaunchScreen.storyboard */; };
-		DFDEA78B1D50EE05003A7D1A /* MISATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA78A1D50EE05003A7D1A /* MISATests.swift */; };
-		DFDEA7961D50EE05003A7D1A /* MISAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7951D50EE05003A7D1A /* MISAUITests.swift */; };
+		DFDEA78B1D50EE05003A7D1A /* LIKHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA78A1D50EE05003A7D1A /* LIKHATests.swift */; };
+		DFDEA7961D50EE05003A7D1A /* LIKHAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEA7951D50EE05003A7D1A /* LIKHAUITests.swift */; };
 		DFDF66F61D5AC73A005A993D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */; };
 		DFDF66F71D5AC73A005A993D /* SWXMLHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DFDF66FA1D5AC73F005A993D /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F91D5AC73F005A993D /* Zip.framework */; };
@@ -59,21 +59,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF34493F1D5F8F6F00685719 /* MISABundles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MISABundles.plist; sourceTree = "<group>"; };
-		DFB6853E1D5563F90044CFB6 /* MISABundles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MISABundles.swift; sourceTree = "<group>"; };
-		DFCCFF1B1D5192C50099635B /* MISA.utree */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISA.utree; sourceTree = "<group>"; };
-		DFDEA7721D50EE05003A7D1A /* MISA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MISA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFDEA7771D50EE05003A7D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF34493F1D5F8F6F00685719 /* LIKHABundles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LIKHABundles.plist; sourceTree = "<group>"; };
+		DFB6853E1D5563F90044CFB6 /* LIKHABundles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LIKHABundles.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFCCFF1B1D5192C50099635B /* LIKHA.utree */ = {isa = PBXFileReference; lastKnownFileType = file; path = LIKHA.utree; sourceTree = "<group>"; };
+		DFDEA7721D50EE05003A7D1A /* LIKHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIKHA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFDEA7771D50EE05003A7D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFDEA77A1D50EE05003A7D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFDEA77C1D50EE05003A7D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFDEA77F1D50EE05003A7D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFDEA7811D50EE05003A7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDEA7861D50EE05003A7D1A /* MISATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MISATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFDEA78A1D50EE05003A7D1A /* MISATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MISATests.swift; sourceTree = "<group>"; };
+		DFDEA7861D50EE05003A7D1A /* LIKHA.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIKHA.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEA78A1D50EE05003A7D1A /* LIKHATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LIKHATests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFDEA78C1D50EE05003A7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDEA7911D50EE05003A7D1A /* MISAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MISAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFDEA7951D50EE05003A7D1A /* MISAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MISAUITests.swift; sourceTree = "<group>"; };
+		DFDEA7911D50EE05003A7D1A /* LIKHA.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIKHA.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEA7951D50EE05003A7D1A /* LIKHAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LIKHAUITests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFDEA7971D50EE05003A7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFDF66F31D5AC490005A993D /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UsbongKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,10 +121,10 @@
 		DFDEA7691D50EE05003A7D1A = {
 			isa = PBXGroup;
 			children = (
-				DFCCFF1B1D5192C50099635B /* MISA.utree */,
-				DFDEA7741D50EE05003A7D1A /* MISA */,
-				DFDEA7891D50EE05003A7D1A /* MISATests */,
-				DFDEA7941D50EE05003A7D1A /* MISAUITests */,
+				DFCCFF1B1D5192C50099635B /* LIKHA.utree */,
+				DFDEA7741D50EE05003A7D1A /* LIKHA */,
+				DFDEA7891D50EE05003A7D1A /* LIKHATests */,
+				DFDEA7941D50EE05003A7D1A /* LIKHAUITests */,
 				DF3449411D5F90B800685719 /* Frameworks */,
 				DFDEA7731D50EE05003A7D1A /* Products */,
 			);
@@ -133,52 +133,52 @@
 		DFDEA7731D50EE05003A7D1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFDEA7721D50EE05003A7D1A /* MISA.app */,
-				DFDEA7861D50EE05003A7D1A /* MISATests.xctest */,
-				DFDEA7911D50EE05003A7D1A /* MISAUITests.xctest */,
+				DFDEA7721D50EE05003A7D1A /* LIKHA.app */,
+				DFDEA7861D50EE05003A7D1A /* LIKHA.xctest */,
+				DFDEA7911D50EE05003A7D1A /* LIKHA.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFDEA7741D50EE05003A7D1A /* MISA */ = {
+		DFDEA7741D50EE05003A7D1A /* LIKHA */ = {
 			isa = PBXGroup;
 			children = (
 				DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */,
 				DFDEA7771D50EE05003A7D1A /* ViewController.swift */,
-				DFB6853E1D5563F90044CFB6 /* MISABundles.swift */,
-				DF34493F1D5F8F6F00685719 /* MISABundles.plist */,
+				DFB6853E1D5563F90044CFB6 /* LIKHABundles.swift */,
+				DF34493F1D5F8F6F00685719 /* LIKHABundles.plist */,
 				DFDEA7791D50EE05003A7D1A /* Main.storyboard */,
 				DFDEA77C1D50EE05003A7D1A /* Assets.xcassets */,
 				DFDEA77E1D50EE05003A7D1A /* LaunchScreen.storyboard */,
 				DFDEA7811D50EE05003A7D1A /* Info.plist */,
 			);
-			path = MISA;
+			path = LIKHA;
 			sourceTree = "<group>";
 		};
-		DFDEA7891D50EE05003A7D1A /* MISATests */ = {
+		DFDEA7891D50EE05003A7D1A /* LIKHATests */ = {
 			isa = PBXGroup;
 			children = (
-				DFDEA78A1D50EE05003A7D1A /* MISATests.swift */,
+				DFDEA78A1D50EE05003A7D1A /* LIKHATests.swift */,
 				DFDEA78C1D50EE05003A7D1A /* Info.plist */,
 			);
-			path = MISATests;
+			path = LIKHATests;
 			sourceTree = "<group>";
 		};
-		DFDEA7941D50EE05003A7D1A /* MISAUITests */ = {
+		DFDEA7941D50EE05003A7D1A /* LIKHAUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DFDEA7951D50EE05003A7D1A /* MISAUITests.swift */,
+				DFDEA7951D50EE05003A7D1A /* LIKHAUITests.swift */,
 				DFDEA7971D50EE05003A7D1A /* Info.plist */,
 			);
-			path = MISAUITests;
+			path = LIKHAUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFDEA7711D50EE05003A7D1A /* MISA */ = {
+		DFDEA7711D50EE05003A7D1A /* LIKHA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFDEA79A1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISA" */;
+			buildConfigurationList = DFDEA79A1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "LIKHA" */;
 			buildPhases = (
 				DFDEA76E1D50EE05003A7D1A /* Sources */,
 				DFDEA76F1D50EE05003A7D1A /* Frameworks */,
@@ -189,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = MISA;
+			name = LIKHA;
 			productName = MISA;
-			productReference = DFDEA7721D50EE05003A7D1A /* MISA.app */;
+			productReference = DFDEA7721D50EE05003A7D1A /* LIKHA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DFDEA7851D50EE05003A7D1A /* MISATests */ = {
+		DFDEA7851D50EE05003A7D1A /* LIKHATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFDEA79D1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISATests" */;
+			buildConfigurationList = DFDEA79D1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "LIKHATests" */;
 			buildPhases = (
 				DFDEA7821D50EE05003A7D1A /* Sources */,
 				DFDEA7831D50EE05003A7D1A /* Frameworks */,
@@ -207,14 +207,14 @@
 			dependencies = (
 				DFDEA7881D50EE05003A7D1A /* PBXTargetDependency */,
 			);
-			name = MISATests;
+			name = LIKHATests;
 			productName = MISATests;
-			productReference = DFDEA7861D50EE05003A7D1A /* MISATests.xctest */;
+			productReference = DFDEA7861D50EE05003A7D1A /* LIKHA.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DFDEA7901D50EE05003A7D1A /* MISAUITests */ = {
+		DFDEA7901D50EE05003A7D1A /* LIKHAUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFDEA7A01D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISAUITests" */;
+			buildConfigurationList = DFDEA7A01D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "LIKHAUITests" */;
 			buildPhases = (
 				DFDEA78D1D50EE05003A7D1A /* Sources */,
 				DFDEA78E1D50EE05003A7D1A /* Frameworks */,
@@ -225,9 +225,9 @@
 			dependencies = (
 				DFDEA7931D50EE05003A7D1A /* PBXTargetDependency */,
 			);
-			name = MISAUITests;
+			name = LIKHAUITests;
 			productName = MISAUITests;
-			productReference = DFDEA7911D50EE05003A7D1A /* MISAUITests.xctest */;
+			productReference = DFDEA7911D50EE05003A7D1A /* LIKHA.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DFDEA76D1D50EE05003A7D1A /* Build configuration list for PBXProject "MISA" */;
+			buildConfigurationList = DFDEA76D1D50EE05003A7D1A /* Build configuration list for PBXProject "LIKHA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFDEA7711D50EE05003A7D1A /* MISA */,
-				DFDEA7851D50EE05003A7D1A /* MISATests */,
-				DFDEA7901D50EE05003A7D1A /* MISAUITests */,
+				DFDEA7711D50EE05003A7D1A /* LIKHA */,
+				DFDEA7851D50EE05003A7D1A /* LIKHATests */,
+				DFDEA7901D50EE05003A7D1A /* LIKHAUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,8 +281,8 @@
 				DFDEA7801D50EE05003A7D1A /* LaunchScreen.storyboard in Resources */,
 				DFDEA77D1D50EE05003A7D1A /* Assets.xcassets in Resources */,
 				DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */,
-				DFCCFF1C1D5192C50099635B /* MISA.utree in Resources */,
-				DF3449401D5F8F6F00685719 /* MISABundles.plist in Resources */,
+				DFCCFF1C1D5192C50099635B /* LIKHA.utree in Resources */,
+				DF3449401D5F8F6F00685719 /* LIKHABundles.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB6853F1D5563F90044CFB6 /* MISABundles.swift in Sources */,
+				DFB6853F1D5563F90044CFB6 /* LIKHABundles.swift in Sources */,
 				DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */,
 				DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */,
 			);
@@ -317,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFDEA78B1D50EE05003A7D1A /* MISATests.swift in Sources */,
+				DFDEA78B1D50EE05003A7D1A /* LIKHATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFDEA7961D50EE05003A7D1A /* MISAUITests.swift in Sources */,
+				DFDEA7961D50EE05003A7D1A /* LIKHAUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		DFDEA7881D50EE05003A7D1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DFDEA7711D50EE05003A7D1A /* MISA */;
+			target = DFDEA7711D50EE05003A7D1A /* LIKHA */;
 			targetProxy = DFDEA7871D50EE05003A7D1A /* PBXContainerItemProxy */;
 		};
 		DFDEA7931D50EE05003A7D1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DFDEA7711D50EE05003A7D1A /* MISA */;
+			target = DFDEA7711D50EE05003A7D1A /* LIKHA */;
 			targetProxy = DFDEA7921D50EE05003A7D1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,11 +454,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = MISA/Info.plist;
+				INFOPLIST_FILE = LIKHA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.MISA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.LIKHA;
+				PRODUCT_NAME = LIKHA;
 			};
 			name = Debug;
 		};
@@ -467,11 +467,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = MISA/Info.plist;
+				INFOPLIST_FILE = LIKHA/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.MISA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.LIKHA;
+				PRODUCT_NAME = LIKHA;
 			};
 			name = Release;
 		};
@@ -479,11 +479,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MISATests/Info.plist;
+				INFOPLIST_FILE = LIKHATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.MISATests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MISA.app/MISA";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.LIKHATests;
+				PRODUCT_NAME = LIKHA;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIKHA.app/LIKHA";
 			};
 			name = Debug;
 		};
@@ -491,40 +491,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MISATests/Info.plist;
+				INFOPLIST_FILE = LIKHATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.MISATests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MISA.app/MISA";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.LIKHATests;
+				PRODUCT_NAME = LIKHA;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIKHA.app/LIKHA";
 			};
 			name = Release;
 		};
 		DFDEA7A11D50EE05003A7D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MISAUITests/Info.plist;
+				INFOPLIST_FILE = LIKHAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.MISAUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MISA;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.LIKHAUITests;
+				PRODUCT_NAME = LIKHA;
+				TEST_TARGET_NAME = LIKHA;
 			};
 			name = Debug;
 		};
 		DFDEA7A21D50EE05003A7D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MISAUITests/Info.plist;
+				INFOPLIST_FILE = LIKHAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.MISAUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MISA;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.usbong.LIKHAUITests;
+				PRODUCT_NAME = LIKHA;
+				TEST_TARGET_NAME = LIKHA;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFDEA76D1D50EE05003A7D1A /* Build configuration list for PBXProject "MISA" */ = {
+		DFDEA76D1D50EE05003A7D1A /* Build configuration list for PBXProject "LIKHA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDEA7981D50EE05003A7D1A /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFDEA79A1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISA" */ = {
+		DFDEA79A1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "LIKHA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDEA79B1D50EE05003A7D1A /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFDEA79D1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISATests" */ = {
+		DFDEA79D1D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "LIKHATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDEA79E1D50EE05003A7D1A /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFDEA7A01D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "MISAUITests" */ = {
+		DFDEA7A01D50EE05003A7D1A /* Build configuration list for PBXNativeTarget "LIKHAUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDEA7A11D50EE05003A7D1A /* Debug */,

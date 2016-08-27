@@ -11,6 +11,6 @@
       location = "group:Carthage/Checkouts/UsbongKit/UsbongKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:MISA.xcodeproj">
+      location = "container:LIKHA.xcodeproj">
    </FileRef>
 </Workspace>

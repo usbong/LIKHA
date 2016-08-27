@@ -10,7 +10,7 @@
     "EB2210CFD48672E403BED699D5D7F01B844069CF" : 0,
     "3DD768C8AB2D6A2647C9EF99992D3CC5820E77C4" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FB5D0EDD-8633-4217-BA3A-8E0C8A2EC916",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BEE4196F-D478-4D97-AC62-B32674D8A8FF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "882B08BCA9D0FB37D5E4F56EB23AED70E57C7D43" : "MISA\/",
     "A35CCB433480D36684A5C64E8A2C8310B0077A64" : "MISA\/Carthage\/Checkouts\/UsbongKit\/",
@@ -18,9 +18,9 @@
     "EB2210CFD48672E403BED699D5D7F01B844069CF" : "MISA\/Carthage\/Checkouts\/SWXMLHash\/",
     "3DD768C8AB2D6A2647C9EF99992D3CC5820E77C4" : "MISA\/Carthage\/Checkouts\/Zip\/"
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "MISA",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LIKHA",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MISA.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LIKHA.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marmelroy\/Zip.git",
