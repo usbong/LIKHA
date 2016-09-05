@@ -23,6 +23,8 @@
 		DFDF66FB1D5AC73F005A993D /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F91D5AC73F005A993D /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DFDF66FC1D5AC744005A993D /* UsbongKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F31D5AC490005A993D /* UsbongKit.framework */; };
 		DFDF66FD1D5AC744005A993D /* UsbongKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF66F31D5AC490005A993D /* UsbongKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFF884321D7D172500FF3B72 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF884311D7D172500FF3B72 /* AboutTableViewController.swift */; };
+		DFF884341D7D186800FF3B72 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = DFF884331D7D186800FF3B72 /* About.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		DFDF66F31D5AC490005A993D /* UsbongKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UsbongKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF66F51D5AC73A005A993D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF66F91D5AC73F005A993D /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF884311D7D172500FF3B72 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		DFF884331D7D186800FF3B72 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +149,10 @@
 			children = (
 				DFDEA7751D50EE05003A7D1A /* AppDelegate.swift */,
 				DFDEA7771D50EE05003A7D1A /* ViewController.swift */,
+				DFF884311D7D172500FF3B72 /* AboutTableViewController.swift */,
 				DFB6853E1D5563F90044CFB6 /* LIKHABundles.swift */,
 				DF34493F1D5F8F6F00685719 /* LIKHABundles.plist */,
+				DFF884331D7D186800FF3B72 /* About.txt */,
 				DFDEA7791D50EE05003A7D1A /* Main.storyboard */,
 				DFDEA77C1D50EE05003A7D1A /* Assets.xcassets */,
 				DFDEA77E1D50EE05003A7D1A /* LaunchScreen.storyboard */,
@@ -278,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF884341D7D186800FF3B72 /* About.txt in Resources */,
 				DFDEA7801D50EE05003A7D1A /* LaunchScreen.storyboard in Resources */,
 				DFDEA77D1D50EE05003A7D1A /* Assets.xcassets in Resources */,
 				DFDEA77B1D50EE05003A7D1A /* Main.storyboard in Resources */,
@@ -310,6 +317,7 @@
 				DFB6853F1D5563F90044CFB6 /* LIKHABundles.swift in Sources */,
 				DFDEA7781D50EE05003A7D1A /* ViewController.swift in Sources */,
 				DFDEA7761D50EE05003A7D1A /* AppDelegate.swift in Sources */,
+				DFF884321D7D172500FF3B72 /* AboutTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

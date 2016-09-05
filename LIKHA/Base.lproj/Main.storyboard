@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A254g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XFB-6I-NOl">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XFB-6I-NOl">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -8,7 +8,7 @@
         <!--UsbongKit-->
         <scene sceneID="22l-sI-AsU">
             <objects>
-                <viewController id="nen-DB-PgB" customClass="ViewController" customModule="MISA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nen-DB-PgB" customClass="ViewController" customModule="LIKHA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VZM-6P-dGf"/>
                         <viewControllerLayoutGuide type="bottom" id="A9z-5j-UU2"/>
@@ -62,7 +62,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="UsbongKit" id="yA9-jG-eVR">
                         <barButtonItem key="backBarButtonItem" title=" " id="rmD-38-JCp"/>
-                        <barButtonItem key="rightBarButtonItem" title="About" id="QtV-4K-1BZ"/>
+                        <barButtonItem key="rightBarButtonItem" title="About" id="QtV-4K-1BZ">
+                            <connections>
+                                <segue destination="6ur-ke-cV7" kind="show" id="BZd-8C-XIo"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="coverImageView" destination="kuc-M6-ori" id="25m-Ul-NcK"/>
@@ -90,6 +94,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MxM-M3-UXq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="322" y="461"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="Ezx-Yl-nwb">
+            <objects>
+                <tableViewController id="6ur-ke-cV7" customClass="AboutTableViewController" customModule="LIKHA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="89" sectionHeaderHeight="28" sectionFooterHeight="28" id="hbp-Tt-sfY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="SRV-tD-0VP">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="89" id="NeP-dt-5UU">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="89"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NeP-dt-5UU" id="a0h-A4-lqf">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnT-GV-CQi">
+                                                    <rect key="frame" x="8" y="8" width="584" height="73"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">--LIKHA--
+
+Usbong Social Systems, Inc.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                                </textView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="GnT-GV-CQi" secondAttribute="trailing" constant="8" id="Mpd-fU-dsa"/>
+                                                <constraint firstAttribute="bottom" secondItem="GnT-GV-CQi" secondAttribute="bottom" constant="8" id="blx-Ag-AgO"/>
+                                                <constraint firstItem="GnT-GV-CQi" firstAttribute="leading" secondItem="a0h-A4-lqf" secondAttribute="leading" constant="8" id="lfq-DJ-Ift"/>
+                                                <constraint firstItem="GnT-GV-CQi" firstAttribute="top" secondItem="a0h-A4-lqf" secondAttribute="top" constant="8" id="pkT-tK-IWe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="6ur-ke-cV7" id="XKI-TW-FCf"/>
+                            <outlet property="delegate" destination="6ur-ke-cV7" id="ImH-cp-VJV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="About" id="l8u-My-A3I"/>
+                    <connections>
+                        <outlet property="textView" destination="GnT-GV-CQi" id="vxf-lH-cnl"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fl4-xp-gB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1848" y="461"/>
         </scene>
     </scenes>
     <resources>
