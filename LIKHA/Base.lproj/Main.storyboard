@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="V4a-4m-tjz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oj5-vX-HsN">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
@@ -54,8 +57,12 @@
                         <color key="backgroundColor" red="0.90980392160000001" green="0.84705882349999995" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="oj5-vX-HsN" firstAttribute="top" secondItem="6LM-fX-czK" secondAttribute="top" id="6Dm-XV-hsI"/>
+                            <constraint firstAttribute="trailing" secondItem="V4a-4m-tjz" secondAttribute="trailing" id="7FX-zY-KUb"/>
                             <constraint firstItem="A9z-5j-UU2" firstAttribute="top" secondItem="oj5-vX-HsN" secondAttribute="bottom" id="Oz1-zI-TBU"/>
+                            <constraint firstItem="V4a-4m-tjz" firstAttribute="top" secondItem="6LM-fX-czK" secondAttribute="top" id="SIo-lM-TLP"/>
+                            <constraint firstItem="A9z-5j-UU2" firstAttribute="top" secondItem="V4a-4m-tjz" secondAttribute="bottom" id="ZD4-Oq-RIO"/>
                             <constraint firstAttribute="trailing" secondItem="oj5-vX-HsN" secondAttribute="trailing" id="aDs-MB-T9x"/>
+                            <constraint firstItem="V4a-4m-tjz" firstAttribute="leading" secondItem="6LM-fX-czK" secondAttribute="leading" id="b8R-lk-Blo"/>
                             <constraint firstItem="oj5-vX-HsN" firstAttribute="leading" secondItem="6LM-fX-czK" secondAttribute="leading" id="n0N-dk-4mF"/>
                             <constraint firstItem="kuc-M6-ori" firstAttribute="width" secondItem="6LM-fX-czK" secondAttribute="width" id="tWY-LZ-ztx"/>
                         </constraints>
@@ -151,6 +158,7 @@ Usbong Social Systems, Inc.</string>
         </scene>
     </scenes>
     <resources>
+        <image name="BG" width="240" height="320"/>
         <image name="Button-Yellow-Highlighted" width="183" height="43"/>
         <image name="Button-Yellow-Normal" width="183" height="43"/>
         <image name="Cover" width="600" height="850"/>
