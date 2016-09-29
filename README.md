@@ -1,10 +1,12 @@
 # LIKHA
 
-Build your own iOS apps using your Trees (.utree file).
+Build your own iOS apps with your Trees (.utree file).
 
-Example Apps: 
-1) LIKHA Multilingual Interactive Storybook Apps
+Example Apps:<br>
+1) LIKHA Multilingual Interactive Storybook Apps<br>
 2) DAHON Nano Courses
+
+Please refer to the <a href="https://github.com/usbong/LIKHA-Guide">LIKHA-Guide</a> for the step-by-step tutorial.
 
 # Open Source Software License
 Copyright 2016 Usbong Social Systems, Inc.
